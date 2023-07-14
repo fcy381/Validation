@@ -9,10 +9,10 @@ namespace Validation.DTOs
 {
     public class User
     {   // No debe estar vacío.
-        public string Nombre { get; set; }
+        public string Name { get; set; }
 
         // No debe estar vacío y debe ser una dirección de correo electrónico válida.
-        public string EmailPrincipal { get; set; }
+        public string PrincipalEmail { get; set; }
 
         // No debe estar vacía y debe estar entre 18 y 99 años (inclusive).
         public int Age { get; set; }
